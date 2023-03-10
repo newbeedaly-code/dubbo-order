@@ -6,8 +6,8 @@
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>order-api</artifactId>
-    <name>order-api</name>
+    <artifactId>order-adaptor</artifactId>
+    <name>order-adaptor</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -15,11 +15,8 @@
     <dependencies>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
-            <artifactId>order-rpc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.newbeedaly</groupId>
             <artifactId>pay-rpc</artifactId>
+            <version>${pay.version}</version>
         </dependency>
     </dependencies>
 

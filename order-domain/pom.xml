@@ -15,26 +15,14 @@
     <dependencies>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
-            <artifactId>order-api</artifactId>
+            <artifactId>order-adaptor</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.newbeedaly</groupId>
+            <artifactId>order-rpc</artifactId>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.7.9</version>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
