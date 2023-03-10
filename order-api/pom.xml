@@ -10,12 +10,24 @@
     <name>order-api</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <pay.version>1.0.0</pay.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
             <artifactId>order-rpc</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>nacos-client</artifactId>
+                    <groupId>com.alibaba.nacos</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>cn.newbeedaly</groupId>
+            <artifactId>pay-rpc</artifactId>
+            <version>${pay.version}</version>
         </dependency>
     </dependencies>
 
