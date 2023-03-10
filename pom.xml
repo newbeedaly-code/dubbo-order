@@ -19,10 +19,8 @@
     <artifactId>dubbo-order</artifactId>
     <version>${revision}</version>
     <properties>
-        <spring.boot.version>2.7.9</spring.boot.version>
         <java.version>8</java.version>
         <revision>1.0.0</revision>
-        <pay.version>1.0.0</pay.version>
     </properties>
 
     <dependencyManagement>
@@ -43,11 +41,6 @@
                         <artifactId>log4j-to-slf4j</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-parent</artifactId>
-                <version>${spring.boot.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

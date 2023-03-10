@@ -12,11 +12,12 @@
     </properties>
 
     <dependencies>
+        <!-- todo 此处有问题
         <dependency>
             <groupId>cn.newbeedaly</groupId>
             <artifactId>pay-rpc</artifactId>
-            <version>${pay.version}</version>
         </dependency>
+        -->
     </dependencies>
 
 </project>
