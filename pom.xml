@@ -21,6 +21,7 @@
     <properties>
         <java.version>8</java.version>
         <revision>1.0.0</revision>
+        <pay.version>1.0.0</pay.version>
     </properties>
 
     <dependencyManagement>
@@ -34,6 +35,11 @@
                 <groupId>cn.newbeedaly</groupId>
                 <artifactId>order-rpc</artifactId>
                 <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.newbeedaly</groupId>
+                <artifactId>pay-rpc</artifactId>
+                <version>${pay.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
