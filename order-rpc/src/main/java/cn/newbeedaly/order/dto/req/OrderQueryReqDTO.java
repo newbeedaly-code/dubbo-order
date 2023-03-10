@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 @Builder
 @Getter
 @Setter
-public class PayInfoQueryReqDTO extends BaseDTO {
+public class OrderQueryReqDTO extends BaseDTO {
 
     /**
      * 订单ID

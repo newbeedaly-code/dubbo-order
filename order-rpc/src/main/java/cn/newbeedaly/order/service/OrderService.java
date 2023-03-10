@@ -1,6 +1,6 @@
 package cn.newbeedaly.order.service;
 
-import cn.newbeedaly.order.dto.req.PayInfoQueryReqDTO;
+import cn.newbeedaly.order.dto.req.OrderQueryReqDTO;
 
 import javax.validation.constraints.NotNull;
 
@@ -9,5 +9,5 @@ import javax.validation.constraints.NotNull;
  */
 public interface OrderService {
 
-    public String getPayInfoByOrderId(@NotNull PayInfoQueryReqDTO dto);
+    public String getOrderPayByOrderId(@NotNull OrderQueryReqDTO dto);
 }

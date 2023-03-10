@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableDubbo(scanBasePackages = "cn.newbeedaly")
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "cn.newbeedaly")
 public class OrderSpringApplication {
 
     public static void main(String[] args) {
