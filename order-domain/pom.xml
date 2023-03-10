@@ -15,12 +15,12 @@
     <dependencies>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
-            <artifactId>order-adaptor</artifactId>
+            <artifactId>order-rpc</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
-            <artifactId>order-rpc</artifactId>
+            <artifactId>order-adaptor</artifactId>
             <version>${revision}</version>
         </dependency>
     </dependencies>

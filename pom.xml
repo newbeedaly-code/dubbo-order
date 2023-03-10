@@ -18,7 +18,6 @@
     <groupId>cn.newbeedaly</groupId>
     <artifactId>dubbo-order</artifactId>
     <version>${revision}</version>
-    <name>dubbo-order</name>
     <properties>
         <spring.boot.version>2.7.9</spring.boot.version>
         <java.version>8</java.version>
