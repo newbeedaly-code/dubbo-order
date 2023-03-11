@@ -9,11 +9,6 @@
 
     <artifactId>order-domain</artifactId>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <pay.version>1.0.0</pay.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
@@ -24,11 +19,6 @@
             <groupId>cn.newbeedaly</groupId>
             <artifactId>order-adaptor</artifactId>
             <version>${revision}</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.newbeedaly</groupId>
-            <artifactId>pay-rpc</artifactId>
-            <version>${pay.version}</version>
         </dependency>
     </dependencies>
 
